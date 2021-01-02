@@ -1,7 +1,8 @@
 # Queryable JS
-<a href="https://www.npmjs.com/@pablor21/queryable-js"><img src="https://img.shields.io/npm/v/@pablor21/queryable-js.svg?v1" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/@pablor21/queryable-js"><img src="https://img.shields.io/npm/l/@pablor21/queryable-js.svg?v1" alt="Package License" /></a>
-<a href="https://www.npmjs.com/@pablor21/queryable-js"><img src="https://img.shields.io/npm/dm/@pablor21/queryable-js.svg?v1" alt="NPM Downloads" /></a>
+<a href="https://www.npmjs.com/@pablor21/queryable-js"><img src="https://img.shields.io/npm/v/@pablor21/queryable-js.svg?v1" 
+target="_blank" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/@pablor21/queryable-js"><img src="https://img.shields.io/npm/l/@pablor21/queryable-js.svg?v1" target="_blank"  alt="Package License" /></a>
+<a href="https://www.npmjs.com/@pablor21/queryable-js"><img src="https://img.shields.io/npm/dt/@pablor21/queryable-js.svg?v1" target="_blank"  alt="NPM Downloads" /></a>
 
 Easy query your datasources using a unified query specification.
 
