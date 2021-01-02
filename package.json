@@ -1,0 +1,48 @@
+{
+  "name": "@pablor21/queryable-js",
+  "version": "0.0.1",
+  "description": "Queryable abstractions",
+  "main": "index.js",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/pablor21/queryable-js.git"
+  },
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "build-and-check": "npm run lint && npm run build",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push --follow-tags"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "dist/**/*"
+  ],
+  "keywords": [
+    "queryable",
+    "datasources",
+    "nodejs"
+  ],
+  "author": "pablor21@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.11",
+    "jest": "^26.6.3",
+    "prettier": "^1.19.1",
+    "ts-jest": "^26.4.4",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {}
+}
